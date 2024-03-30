@@ -23,7 +23,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '泥瓦匠', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的工程人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://dachengshan.cn', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '建筑','建造师', '施工方案','施工组织设计','项目管理','工程资料',// 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '建筑','建造师','施工方案','施工组织设计','项目管理','工程资料',// 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'tangshan.team@foxmail.com', // 邮箱地址 例如mail@tangly1024.com
