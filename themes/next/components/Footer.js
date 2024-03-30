@@ -63,16 +63,6 @@ const Footer = (props) => {
                 <SocialButton />
                           </div>
                             </div>}
-
-                        </div>
-                        <div className='text-lg'> {siteConfig('CONTACT_EMAIL') && <a target='_blank' rel='noreferrer' title={'email'} href={`mailto:${siteConfig('CONTACT_EMAIL')}`} >
-                            <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-red-400 hover:text-red-600' /> {siteConfig('CONTACT_EMAIL')}
-                        </a>}</div>
-                        <div className='text-lg'> {siteConfig('CONTACT_PHONE') && <div>
-                            <i className='transform hover:scale-125 duration-150 fas fa-user dark:hover:text-red-400 hover:text-red-600' />  {siteConfig('CONTACT_PHONE')}
-                        </div>}</div>
-                    </div>
-                </div>}
             </div>
 
             {/* 底部版权相关 */}
