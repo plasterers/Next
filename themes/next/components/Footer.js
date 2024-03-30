@@ -1,4 +1,3 @@
-<div style="display: none;">
 import { siteConfig } from '@/lib/config'
 import DarkModeButton from '@/components/DarkModeButton'
 
@@ -35,4 +34,3 @@ const Footer = ({ title }) => {
 }
 
 export default Footer
-</div>
