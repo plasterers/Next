@@ -25,8 +25,10 @@ const Footer = ({ title }) => {
                     <i className='fas fa-users' /> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
                 <br />
                 <h1>{title}</h1>
-                <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/dachengshan/Next' className='underline '>泥瓦匠 {siteConfig('VERSION')}</a>.</span>
+                <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/plasterers/Next' className='underline '>泥瓦匠 V1</a>.</span>
             </span>
+                 <div class="footer">技术支持：泥瓦匠 版本1.0.0.24331
+            </div>
         </footer>
   )
 }
