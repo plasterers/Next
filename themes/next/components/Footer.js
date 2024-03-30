@@ -59,19 +59,9 @@ const Footer = (props) => {
 
                 {<div className='md:border-l pl-4 border-gray-600 my-6 whitespace-pre-line text-left flex-grow'>
                     <div className='font-bold text-l text-white mb-6'>{siteConfig('COMMERCE_TEXT_FOOTER_TITLE', 'Contact US')}</div>
-                    <div className='space-y-4'>
-                        <div className='flex space-x-4 text-2xl'>
-                            {JSON.parse(siteConfig('COMMERCE_CONTACT_WHATSAPP_SHOW'), true) && <div>
-                                {<a target='_blank' rel='noreferrer' href={siteConfig('CONTACT_WHATSAPP', '#')} title={'telegram'} >
-                                    <i className='transform hover:scale-125 duration-150 fa-brands fa-whatsapp dark:hover:text-red-400 hover:text-red-600' />
-                                </a>}
-                            </div>
-                            }
-
-                            {JSON.parse(siteConfig('COMMERCE_CONTACT_TELEGRAM_SHOW', true)) && <div>
-                                {<a target='_blank' rel='noreferrer' href={siteConfig('CONTACT_TELEGRAM', '#')} title={'telegram'} >
-                                    <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-red-400 hover:text-red-600' />
-                                </a>}
+                    <div className='w-full h-24'>
+                <SocialButton />
+                          </div>
                             </div>}
 
                         </div>
