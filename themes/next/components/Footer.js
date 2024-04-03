@@ -25,15 +25,9 @@ const Footer = ({ title }) => {
                     <i className='fas fa-users' /> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
                 <br />
                 <h1>{title}</h1>
-                <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/plasterers/Next' className='underline '>泥瓦匠</a>V1</span>
+                <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/tangly1024/NotionNext' className='underline '>NotionNext {siteConfig('VERSION')}</a>.</span>
             </span>
-                      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HzjdChlC9Lvrgz2/quote.js?theme=0&f=12&display=0,0,0,1,0,0,1,1">
-              </script>
-     
-                    <div class="footer">技术支持：泥瓦匠 版本1.0.0.24331
-              </div>
-                                  
-  </footer>
+        </footer>
   )
 }
 
