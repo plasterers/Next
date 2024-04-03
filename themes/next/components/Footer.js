@@ -29,7 +29,7 @@ const Footer = ({ title }) => {
             </span>
                      <div class="footer">技术支持：泥瓦匠 版本1.0.0.24331
               </div>
-                <a target="_blank" title="51la网站统计" href="https://v6.51.la/land/3HzjdChlC9Lvrgz2"><img src="https://sdk.51.la/icon/1-4.png"></a>
+             
                 <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HzjdChlC9Lvrgz2/quote.js?theme=0&f=12&display=0,0,0,1,0,0,1,1"></script>
         </footer>
   )
