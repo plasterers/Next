@@ -32,9 +32,8 @@ const Footer = ({ title }) => {
      
                     <div class="footer">技术支持：泥瓦匠 版本1.0.0.24331
               </div>
-             
-                <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HzjdChlC9Lvrgz2/quote.js?theme=0&f=12&display=0,0,0,1,0,0,1,1"></script>
-        </footer>
+                                  
+  </footer>
   )
 }
 
